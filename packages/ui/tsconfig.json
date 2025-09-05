@@ -1,9 +1,9 @@
 {
-  "extends": "@workspace/typescript-config/react-library.json",
+  "extends": "@spike/typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@workspace/ui/*": ["./src/*"]
+      "@spike/ui/*": ["./src/*"]
     }
   },
   "include": ["."],
